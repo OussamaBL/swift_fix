@@ -652,7 +652,18 @@ a:focus {
 .heading_container {
   margin-bottom: 30px;
 }
-
+#select_contact{
+  width: 100%;
+                border: none;
+                height: 50px;
+                margin-bottom: 25px;
+                padding-left: 25px;
+                background-color: #ffffff;
+                outline: none;
+                color: #000000;
+                -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+                box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
 .contact_section input {
   width: 100%;
   border: none;
@@ -661,7 +672,7 @@ a:focus {
   padding-left: 25px;
   background-color: #ffffff;
   outline: none;
-  color: #ffffff;
+  color: #000000;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
